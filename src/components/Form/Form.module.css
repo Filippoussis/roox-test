@@ -1,0 +1,28 @@
+.form {
+  width: 438px;
+}
+
+.formHeader {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.formWrapper {
+  padding: 20px 12px;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+}
+
+.formInput {
+  width: 211px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formControl {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

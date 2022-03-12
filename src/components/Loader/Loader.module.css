@@ -1,0 +1,46 @@
+@keyframes pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+
+.loader {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.loaderContainer {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loaderBubble {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--primary);
+}
+
+.loaderBubble1 {
+    animation: pulse .4s ease 0s infinite alternate;
+}
+
+.loaderBubble2 {
+    animation: pulse .4s ease .2s infinite alternate;
+}
+
+.loaderBubble3 {
+    animation: pulse .4s ease .4s infinite alternate;
+}
