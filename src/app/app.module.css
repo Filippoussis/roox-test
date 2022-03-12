@@ -1,0 +1,16 @@
+.app {
+  width: 665px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 155px 1fr;
+  margin: 0 auto;
+}
+
+.leftColumn {
+  padding: 35px 20px;
+  background-color: var(--dark-grey);
+}
+
+.rightColumn {
+  padding: 30px 60px 30px 20px;
+}
